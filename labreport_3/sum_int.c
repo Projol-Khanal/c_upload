@@ -2,13 +2,13 @@
 #include<stdio.h>
 int main()
 {
-    int n, sum = 0, digit;
+    int n, sum = 0, r;
     printf("Enter a non-negative integer: ");
     scanf("%d", &n);
     do
     {
-    digit = n % 10;
-    sum = sum + digit;
+    r = n % 10;
+    sum = sum + r;
     n = n / 10;
     }
     while (n != 0);
