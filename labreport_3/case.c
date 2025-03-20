@@ -7,7 +7,7 @@ int main()
     printf("Enter any two numbers: ");
     scanf("%d %d", &a, &b);
     printf("enter any of the operators among +,-,* and /: ");
-    // fflush(stdin);
+    fflush(stdin);
     ch=getchar();
     switch (ch) 
     {
